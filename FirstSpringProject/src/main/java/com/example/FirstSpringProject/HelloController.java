@@ -11,4 +11,11 @@ public class HelloController {
     public String sayHello() {
         return "Hello from BridgeLabz";
     }
+
+      // Use Case 2: GET Request with Query Parameter
+      @GetMapping("/query")
+      public String sayHelloWithQuery(@RequestParam String name) {
+          return "Hello " + name + " from BridgeLabz";
+      }
+  
 }
