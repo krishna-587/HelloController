@@ -1,4 +1,4 @@
-package com.example.Spring.App;
+package com.example.FirstSpringProject;
 
 import org.springframework.web.bind.annotation.*;
 
